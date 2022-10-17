@@ -1,25 +1,9 @@
 body {
     font-family: "Montserrat";
+    text-align: center;
 }
 
-.container-fluid{
-    padding: 3% 15% 7%;
-}
-
-h1 {
-    font-family: "Montserrat";
-    font-size: 3.5rem;
-    font-weight: 900;
-}
-
-h2 {
-    font-family: "Montserrat";
-    font-weight: bold;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-h3{
+h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat";
     font-weight: bold;
 }
@@ -28,13 +12,32 @@ p {
     color: #8f8f8f;
 }
 
-/* Title Section */
+.container-fluid{
+    padding: 7% 15%;
+}
 
+/* Headings */
+.big-heading {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Title Section */
 #title {
     background-color: #ff4c68;
     color: #fff;
+    text-align: left;
 }
 
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
 
 /* Navigation Bar */
 .navbar{
@@ -72,13 +75,11 @@ p {
 
 /* Features Section */
 #features{
-    padding: 7% 15%;
     background-color: white;
     position: relative;
 }
 
 .feature-box {
-    text-align: center;
     padding: 5%;
 }
 
@@ -91,9 +92,12 @@ p {
     color: #ff4c68;
 }
 
+.feature-title{
+    font-size: 1.5rem;
+}
+
 /* Testimonial Section */
 #testimonials {
-    text-align: center;
     background-color: #ff4c68;
     color: #fff;
 }
@@ -104,13 +108,13 @@ p {
     margin: 20px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 #press{
     background-color: #ff4c68;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -122,13 +126,33 @@ p {
 /* Pricing Section */
 #pricing {
     padding: 100px;
-    text-align: center;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .pricing-column {
     padding: 3% 2%;
 }
 
+/* Call to Action Section */
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* Footer Section */
+.footer-icons {
+    margin: 20px 12px;
+}
+
+.copyright {
+    padding: 3%;
+}
+
+/* Media */
 @media (max-width: 992px) {
     #title {
         text-align: center;
@@ -139,27 +163,3 @@ p {
         position: static;
     }
 }
-
-/* Call to Action Section */
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: center;
-    padding: 7% 15% 5%;
-}
-
-
-/* Footer Section */
-#footer {
-    text-align: center;
-    padding: 8% 15% 3%;
-}
-
-.footer-icons {
-    margin: 0px 12px;
-}
-
-.copyright {
-    padding: 3%;
-}
-
